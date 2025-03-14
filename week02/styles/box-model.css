@@ -1,0 +1,35 @@
+.callout {
+	max-width: 300px;
+    margin: 20px;
+    border: 2px solid rgb(0 0 0 / 0.1);
+    padding: 20px;
+    background-color: aqua;
+    color:azure;
+   
+}
+
+.callout img {
+
+	float: right;
+    margin: 0 0 10px 10px;
+    border: 1px solid aquamarine;
+    padding: 3px;
+    background-color: blueviolet;
+    width: 15px 0px;
+    height:auto;
+}
+
+blockquote {
+    margin: 2px;
+
+	
+}
+
+cite {
+    display: block;
+    border-top: 1px dotted #fff;
+    text-align: right;
+    font-size: smaller;
+    
+	
+}

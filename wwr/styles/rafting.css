@@ -12,7 +12,24 @@ h1 {
      font-family: "Quicksand", sans-serif;
      font-weight: 600;
      font-style: normal; 
+     font-size: 65px;
      color: var(--mint);
+     background: transparent;
+     background-position:center;
+     
+     position:relative;
+	top: 1rem;
+	left: 0;
+	background: radial-gradient(#eee, #323A06);
+	border: 1px solid #000;
+	padding: 0.65rem;
+	box-shadow: 0 10px 50px #111;
+	opacity: 0.5;
+     /*padding-right:  850px;
+     padding-left:   850px; */
+     padding-block-end: 100;
+     padding-block-start:  100;
+     padding-top: 0;
      }
    
 h2 {
@@ -39,6 +56,7 @@ p {
 }
 ul {
      list-style-type: none;
+     
 }
 
 .ontop {

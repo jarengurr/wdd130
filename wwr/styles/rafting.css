@@ -1,14 +1,25 @@
-
+:root {
+     --heading-background-color:#f9f4f5ff; /* snow */
+     --heading-text-color: #1e3888ff; /* marian blue */
+     --mint: #3ab795ff;
+     --tangerine: #f58a07ff;
+     --marianblue: #1e3888ff;
+     --snow: #f9f4f5ff; 
+     --heading-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     --padding: 1rem;
+     --border: 1px solid rgb(0 0 0 / 0.1);
+ }
 
 h1 {
      font-family: "Quicksand", sans-serif;
      font-optical-sizing: auto; font-weight: 600;
      font-style: normal; 
      }
-     
+
 body {
     font-family: "Quicksand", sans-serif; 
     font-weight: 400;
+    font-size: 1.5rem;
    
    }
 
@@ -23,3 +34,11 @@ h2 {
     font-family: "Quicksand", sans-serif; 
     font-weight: 600;
    }
+nav {
+     padding-left: 40rem;
+    
+}
+.socialmed {
+     text-decoration: none;
+
+}

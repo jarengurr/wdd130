@@ -6,11 +6,10 @@
      --snow: #f9f4f5ff; 
      --padding: 1rem;
      --border: 1px solid rgb(0 0 0 / 0.1);
-     font-family: "Quicksand", sans-serif;
- }
+}
 
 h1 {
-    
+     font-family: "Quicksand", sans-serif;
      font-optical-sizing: auto;
      font-weight: 600;
      font-style: normal; 
@@ -18,8 +17,8 @@ h1 {
      }
    
 h2 {
-    
-    font-weight: 600;
+    color: var(--tangerine);
+   
    }
 
    .clmedia a {

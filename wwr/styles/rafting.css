@@ -17,7 +17,8 @@ h1 {
    
 h2 {
     color: var(--tangerine);
-   
+    font-style: normal;
+    font-weight: 400;
    }
 
    .clmedia a {

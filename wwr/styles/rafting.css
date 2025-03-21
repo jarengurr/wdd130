@@ -27,8 +27,8 @@ h1 {
 	opacity: 0.5;
      /*padding-right:  850px;
      padding-left:   850px; */
-     padding-block-end: 100;
-     padding-block-start:  100;
+     padding-block-end: 1rem;
+     padding-block-start:  0;
      padding-top: 0;
      }
    

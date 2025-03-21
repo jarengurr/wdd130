@@ -12,8 +12,10 @@
 
 h1 {
      font-family: "Quicksand", sans-serif;
-     font-optical-sizing: auto; font-weight: 600;
+     font-optical-sizing: auto;
+     font-weight: 600;
      font-style: normal; 
+     color: var(--mint);
      }
 
 body {
@@ -34,11 +36,14 @@ h2 {
     font-family: "Quicksand", sans-serif; 
     font-weight: 600;
    }
-nav {
-     padding-left: 40rem;
-    
-}
-.socialmed {
-     text-decoration: none;
+
+     .clmedia a {
+          padding-left: 10rem;
+          text-decoration: none;
+     }
+
+ 
+p {
+     color: green;
 
 }

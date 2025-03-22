@@ -5,22 +5,25 @@
      --marianblue: #1e3888ff;
      --snow: #f9f4f5ff; 
      --padding: 1rem;
-     --border: 1px solid rgb(0 0 0 / 0.1);
+    
 }
 
 h1 {
      font-family: "Quicksand", sans-serif;
-     font-weight: 600;
-     font-style: normal; 
      font-size: 65px;
      color: var(--mint);
+    
+     font-weight: 600;
+     font-style: normal;
+   
      }
    
 h2 {
-    
-     color: var(--tangerine);
-     font-style: normal;
+     font-family: "Lora", serif;
+     
      font-weight: 400;
+     font-style: normal;
+     color: var(--tangerine);
    }
 
    .clmedia a {
@@ -54,19 +57,20 @@ ul {
 	
      position: absolute;
 	top: 650px;
-	left: 350px;
-     background: radial-gradient(#eee, #323A06);
+	left: 250px;
+     width: 80%;
 	border: 1px solid #000;
 	padding: 0.65rem;
-	box-shadow: 0 0 30px #111;
-	opacity: 0.9;
+	background-color: var(--marianblue);
+	opacity: 0.7;
 }
 
 .ontop img {
      width: 100px;
 	height: 100px;
 	object-fit: cover; 
-     float:right
+     float:right;
+     padding: 10px;
 }
 
 .banner {
@@ -84,4 +88,12 @@ ul {
     	opacity: 0.7;
      text-align: center;
    
+}
+
+.fontcolor {
+     font-family: "Lora", serif;
+     
+     font-weight: 400;
+     font-style: normal;
+     color: var(--tangerine);
 }

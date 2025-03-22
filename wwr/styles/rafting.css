@@ -14,22 +14,6 @@ h1 {
      font-style: normal; 
      font-size: 65px;
      color: var(--mint);
-     background: transparent;
-     background-position:center;
-     
-     position:relative;
-	top: 1rem;
-	left: 0;
-	background: radial-gradient(#eee, #323A06);
-	border: 1px solid #000;
-	padding: 0.65rem;
-	box-shadow: 0 10px 50px #111;
-	opacity: 0.5;
-     /*padding-right:  850px;
-     padding-left:   850px; */
-     padding-block-end: 1rem;
-     padding-block-start:  0;
-     padding-top: 0;
      }
    
 h2 {
@@ -49,28 +33,57 @@ p {
 
 }
 
+.hero {
+     margin: 10px auto;
+	position: relative; 
+}
+
 .hero img {
-    display: block;
-    width: 100%;
-    height: auto; 
+     width: 100%;
+	height: 800px;
+	object-fit: cover;
 }
 ul {
      list-style-type: none;
      
 }
 
+
 .ontop {
-	position: absolute;
-	top: 950px;
+	
+     position: absolute;
+	top: 650px;
 	left: 500px;
-	background: radial-gradient(#eee, #323A06);
+     background: radial-gradient(#eee, #323A06);
 	border: 1px solid #000;
 	padding: 0.65rem;
-	box-shadow: 0 10px 50px #111;
+	box-shadow: 0 0 30px #111;
 	opacity: 0.9;
 }
 
 .ontop img {
-     float: right;
+     width: 100px;
+	height: 100px;
+	object-fit: cover; 
+     float:right
+}
 
+.banner {
+     background: transparent;
+   
+     
+     position:absolute;
+     top: 100px;
+	left: 0;
+	width: 100%;/* with of box around content */
+	border: 1px solid #000;
+	
+	box-shadow: 0 10px 50px #111;
+     background: radial-gradient(#eee, #323A06);
+     padding-left: 100;
+     padding-right: 800;
+     
+	opacity: 0.5;
+    text-align: center;
+   
 }

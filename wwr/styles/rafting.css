@@ -67,8 +67,8 @@ ul {
 .ontop {
 	position: absolute;
 	top: 200px;
-	left: 100px;
-     width: 87%;
+	left: 70px;
+     width: 94%;
 	border: 1px solid #000;
 	padding: 0.65rem;
 	background-color: var(--marianblue);

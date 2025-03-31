@@ -51,7 +51,7 @@ p {
 
 .hero {
      margin: 10px auto;
-	position: relative; 
+	position:relative; 
 }
 
 .hero img {
@@ -66,10 +66,9 @@ ul {
 
 
 .ontop {
-	
-     position: absolute;
+	position: absolute;
 	top: 650px;
-	left: 250px;
+	left: 150px;
      width: 80%;
 	border: 1px solid #000;
 	padding: 0.65rem;
@@ -182,6 +181,7 @@ nav a:hover {
      display: flex;
      grid-column: 1/-1;
      justify-self: center;
+     
 }
 figure {
      align-self: center;

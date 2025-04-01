@@ -1,7 +1,7 @@
 :root {
     
      --mint: #3ab795ff;
-     --tangerine: #f58a07ff;
+     --black: black;
      --marianblue: #1e3888ff;
      --snow: #f9f4f5ff; 
      
@@ -51,12 +51,14 @@ p {
 .hero {
      margin: 10px auto;
 	position:relative; 
+    
 }
 
 .hero img {
      width: 100%;
 	height: 800px;
 	object-fit: cover;
+     
 }
 ul {
      list-style-type: none;
@@ -137,14 +139,15 @@ header nav a {
  }
 nav a:hover {
      background-color: antiquewhite;
-     color:#000;
+     color:var(--black);
 }
 /* ************************* NAV SECTION / HISTORY *********************/
 .history {
      display:grid;
-     border: 4px  #000;
+     border: 4px var(--black);
     grid-template-rows:  150px 1fr; 
     border: 1px #000;
+    background-color: var(--snow);
 }
 .mbody {
      display: flex;
@@ -166,18 +169,22 @@ nav a:hover {
     border: 1px #000;
     
 }
+/****************************HISTORY / ADVENTURE *******************************/
 .adv {
      display:grid;
-     grid-template-columns: 1fr 1fr 1fr 1fr auto;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr;
      justify-self: center;
-     margin: 20px 0;
+     margin: 15px 0;
      gap: 1rem;
+    
      
 }
 .adv h2 {
      display: flex;
      grid-column: 1/-1;
      justify-self: center;
+
 
 }
 figure {
@@ -191,6 +198,7 @@ footer {
      display: grid;
      grid-template-columns:  80% 20%;
      align-self: center;
+     margin: 15px 0;
 }
 footer p {
      text-align: center;

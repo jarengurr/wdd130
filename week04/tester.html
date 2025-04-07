@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/tester.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Grid Test</title>
@@ -14,14 +15,7 @@
             padding: 10px;
             
         }
-        .oneitem {
-            background-color: gray;
-            border: 1px solid black;
-            padding: 20px;
-            font-size: 30px;
-            text-align: center;
-            grid-template-columns: 1/3;
-        }
+        
 
         .one > div {
             text-align: center;
@@ -30,7 +24,7 @@
     </style>
 </head>
 <body>
-    <div class="one"> 
+    <div class="one" id="two"> 
         <div class="oneitem">1</div>
         <div class="oneitem">2</div>
         <div class="oneitem">3</div>
@@ -44,6 +38,12 @@
         
 
     </div>
-    
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input style="size: 20px;" type="radio">type="radio" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </form> 
 </body>
 </html>

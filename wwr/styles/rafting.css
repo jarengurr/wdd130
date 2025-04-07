@@ -187,13 +187,14 @@ nav a:hover {
 
 
 }
-figure {
+.adv figure {
      align-self: center;
 }
 figcaption {
     text-align: center;
     padding: 1em;
 }
+/******************************************************************************************/
 footer {
      display: grid;
      grid-template-columns:  80% 20%;
@@ -202,5 +203,66 @@ footer {
 }
 footer p {
      text-align: center;
+
+}
+.contact {
+     display:grid;
+     grid-template-columns: 50% 50%;
+     align-items: center;
+     font-family: "Quicksand", sans-serif;
+     font-size: 45px;
+     padding:100px;  
+    
+     font-weight: 600;
+     font-style: normal;
+ }
+ .contact p {
+     font-size: 30px;
+ }
+ .info {
+    text-align: center;
+     background-color: aqua;
+ }
+ 
+ .gmap {
+     display: flex;
+     background-color: bisque;
+    
+ }
+ .gmap iframe {
+    
+     padding-left: 260px;
+ }
+ .info a {
+     font-size: 20px;
+ }
+
+fieldset {
+     display: block;
+     margin-left: 2px;
+     margin-right: 2px;
+     padding-top: .35em;
+     padding-bottom: .625;
+     padding-left: .75em;
+     padding-right: .75;
+     border: 2px groove;
+}
+.hold {
+     align-self: center;
+}
+.profile {
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows:  20% auto;
+     justify-self: center;
+     margin: 15px 0;
+     gap: 1rem;
+     background-color: aqua;
+}
+.profile h2 {
+     display: flex;
+     grid-column: 1/-1;
+     justify-self: center;
+
 
 }

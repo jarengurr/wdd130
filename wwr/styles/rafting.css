@@ -242,9 +242,9 @@ fieldset {
      margin-left: 2px;
      margin-right: 2px;
      padding-top: .35em;
-     padding-bottom: .625;
+     padding-bottom: .625em;
      padding-left: .75em;
-     padding-right: .75;
+     padding-right: .75em;
      border: 2px groove;
 }
 .hold {

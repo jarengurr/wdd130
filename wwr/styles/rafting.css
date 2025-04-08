@@ -221,12 +221,12 @@ footer p {
  }
  .info {
     text-align: center;
-     background-color: aqua;
+     
  }
  
  .gmap {
      display: flex;
-     background-color: bisque;
+     
     
  }
  .gmap iframe {
@@ -257,7 +257,7 @@ fieldset {
      justify-self: center;
      margin: 15px 0;
      gap: 1rem;
-     background-color: aqua;
+    
 }
 .profile h2 {
      display: flex;

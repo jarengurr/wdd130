@@ -47,15 +47,16 @@
  
             <figure>
                  <img src="images/Tom2.jpg" alt="Tom Billings">
-                 <figcaption>Tom Billings</figcaption>
+                 <figcaption title="Leed Employee">Tom Billings</figcaption>
+                 
             </figure>
              <figure>
                 <img src="images/James2.jpg" alt="James Wilkousky">
-                <figcaption>James Wilkousky</figcaption>
+                <figcaption title="Hard Core Rafter">James Wilkousky</figcaption>
             </figure>
             <figure>
                 <img src="images/Jenny.jpg" alt="Jenny Brown">
-                <figcaption>Jenny brown</figcaption>
+                <figcaption title="1st in Safty">Jenny brown</figcaption>
             </figure>
         
        </section>
@@ -65,35 +66,56 @@
             
                 <h2>Contact Us</h2>
                   
-                <form action="/action_page.php">
-                    <label for="fname">First name:</label>
-                    <input type="text" id="fname"><br><br>
-                    <label for="lname">Last name:</label>
-                    <input type="text" id="lname" name="lname"><br><br>
+                <form action="/action_page.php" class="myform">
+                    <fieldset class="continfo">
+                        <legend>Contact Information</legend>
+                        <div class="fname">
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname"><br><br>
+                        </div>
+                        <div class="lname">
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname"><br><br>
+                        </div>
+                        <div class="email">
+                            <label for="email">Enter Your email:</label>
+                            <input type="email" id="email" name="email"><br>
+                        </div>
 
-                    <label for="email">Enter Your email:</label>
-                    <input type="email" id="email" name="email"><br>
+                    </fieldset>
+                    <fieldset class="messageset">
+                        <legend>Message</legend>
+                        <p>What is the Purpose of your Message?</p>
+                        <div class="messtype">
+                            <input type="radio" id="general" name="message" value="General_Inquiry">
+                            <label for="general">General Inquiry</label><br>
+                        </div>
+                        <div class="Reservation">
+                            <input type="radio" id="question" name="message" value="Reservation_Question">
+                            <label for="question">Reservation Question</label><br>
+                        </div>
+                        <div class="websugg">
+                            <input type="radio" id="Suggestion" name="message" value="Website_Suggestion">
+                            <label for="Suggestion">Website Suggestion</label><br><br><br><br>
+                        </div>
+                    
 
+                        <p>Please Enter Your Message or Question in the Box below. Thanks</p>
+                        <div class="txtreview">
+                            <textarea id="review" rows="6" cols="75" placeholder="Enter Text Here"></textarea><br><br>
+                        </div>
+                    </fieldset>
 
-                    <p>What is the Purpose of your Message?</p>
-               
-                    <input type="radio" id="general" name="message" value="General_Inquiry">
-                    <label for="general">General Inquiry</label><br>
-                    <input type="radio" id="question" name="message" value="Reservation_Question">
-                    <label for="question">Reservation Question</label><br>
-                    <input type="radio" id="Suggestion" name="message" value="Website_Suggestion">
-                    <label for="Suggestion">Website Suggestion</label><br><br><br><br>
+                    <fieldset class="finishform">    
+                        <legend>Finish</legend>
+                        <div class="check">
+                            <input type="checkbox" id="checkbox" name="newsletter" value="newsletter">
+                            <label for="checkbox">Plese subscribe me to the monthly newsletter</label><br><br>
+                        </div>
+                        <button type="submit"> Please Press Button to Send Message</button>  
 
-                    <p>Please Enter your message in the box below. Thanks</p>
-
-                    <textarea id="review" rows="6" cols="75">Enter Text Here</textarea><br><br>
-
-                   
-                    <input type="checkbox" id="checkbox" name="newsletter" value="newsletter">
-                    <label for="checkbox">Plese subscribe me to the monthly newsletter</label><br><br><br>
-
-
-                    <button type="submit" value="Please Press Button to Send Message"></button>                            
+                    </fieldset>
+                                             
                 </form> 
 
              

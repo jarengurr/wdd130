@@ -367,3 +367,7 @@ form {
      grid-template-columns: 1fr 1fr auto;
      
 }
+.addtxt {
+    
+     text-align: center;
+}

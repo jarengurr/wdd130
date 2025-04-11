@@ -19,15 +19,22 @@
    
 }
 
-h1 {
+.hero h1 {
      font-family: "Quicksand", sans-serif;
      font-size: 65px;
      color: var(--marianblue);
     
+    
+     }
+.cup {
+     font-family: "Quicksand", sans-serif;
+     font-size: 65px;
      font-weight: 600;
      font-style: normal;
-   
-     }
+     display: flex;
+     grid-column: 1/-1;
+     justify-self: center;
+}
    
 h2 {
      font-family: "Lora", serif;
@@ -191,7 +198,7 @@ nav a:hover {
      align-self: center;
 }
 figcaption {
-    text-align: center;
+   
     padding: 1em;
 }
 /******************************************************************************************/
@@ -207,7 +214,7 @@ footer p {
 }
 .contact {
      display:grid;
-     grid-template-columns: 50% 50%;
+     grid-template-columns: 70% auto;
      align-items: center;
      font-family: "Quicksand", sans-serif;
      font-size: 45px;
@@ -230,9 +237,14 @@ footer p {
     
  }
  .gmap iframe {
+     padding: 20px;
+    background-color:bisque;
+    display: block;
     
-     padding-left: 260px;
  }
+    
+   
+    
  .info a {
      font-size: 20px;
  }
@@ -252,12 +264,12 @@ fieldset {
 }
 .profile {
      display:grid;
-     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-columns: 1fr 1fr auto;
      grid-template-rows:  20% auto;
-     justify-self: center;
+     justify-self:stretch;
      margin: 15px 0;
      gap: 1rem;
-    
+    background-color: antiquewhite;
 }
 .profile h2 {
      display: flex;
@@ -329,4 +341,29 @@ form
 .check {
      grid-template-columns: 3fr 1fr;
      margin: 0.5rem 0;
+}
+figure {
+     font-size: 30px;
+}
+.contactus {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr auto;
+    
+}
+.contsec {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+    
+     border:1px #000;
+     padding: 30px;
+}
+form {
+     padding: 30px;
+}
+.my3 {
+     display: grid;
+     grid-template-columns: 1fr 1fr auto;
+     
 }

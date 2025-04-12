@@ -1,10 +1,12 @@
 :root {
     
      --mint: #3ab795ff;
-     --black: black;
+     --black: #000;
      --marianblue: #1e3888ff;
      --snow: #f9f4f5ff; 
-     
+     --myaqua: #00ffff;
+     --oldwhite: #faebd7;
+     --calmbeige: #ffe4c4;
      
     
 }
@@ -15,7 +17,8 @@
     border: 2px solid rgb(0 0 0 / 0.1);
    
     background-color:var(--snow);
-    color:rgb(1, 17, 17);
+    color:var(--black);
+   
    
 }
 
@@ -121,10 +124,10 @@ header {
      display: grid;
      grid-template-columns: 500px auto;
      align-items:center;
-     background-color: aqua;
+     background-color: var(--myaqua); /*#00ffff */
      text-decoration: none;
      justify-items: center;
-
+color:
 }
 
 header nav a {
@@ -145,7 +148,7 @@ header nav a {
      color:var(--marianblue);
  }
 nav a:hover {
-     background-color: antiquewhite;
+     background-color:var(--oldwhite);
      color:var(--black);
 }
 /* ************************* NAV SECTION / HISTORY *********************/
@@ -162,7 +165,7 @@ nav a:hover {
      justify-content: center;
      align-items: center;
     
-     border:1px #000;
+     border:1px --black;
      padding: 30px;
 }
 .mbody img {
@@ -238,9 +241,10 @@ footer p {
  }
  .gmap iframe {
      padding: 20px;
-    background-color:bisque;
+    background-color: var(--calmbeige);
     display: block;
      border:3px;
+     color:
  }
     
    
@@ -269,7 +273,7 @@ fieldset {
      justify-self:stretch;
      margin: 15px 0;
      gap: 1rem;
-    background-color: antiquewhite;
+    background-color: var(--oldwhite);
     
 }
 .profile h2 {
@@ -295,7 +299,7 @@ form input [type="checkbox"] {
      padding: 1rem;
      border: 1px solid rgb(0 0 0 / 0.1);
      border-radius: 0.5rem;
-     background-color: #eee;
+     background-color:  #eee;;
      display: grid;
 
 }
@@ -308,8 +312,8 @@ fieldset {
 }
 legend {
      padding: 0.5rem;
-     color: navy;
-     font-size: 1.3em;
+     color:#000;
+     font-size: 25px;
 }
  
 label {
@@ -333,7 +337,7 @@ button {
      border-radius: 0.5rem;
      padding: .75rem;
      font-size: 1.2rem;
-
+     
 }
 button:hover {
      background-color: green;
@@ -371,4 +375,14 @@ form {
 .addtxt {
     
      text-align: center;
+}
+ .email, .lname, .fname {
+     font-size: 20px;
+ }
+
+.messageset div label {
+     font-size: 20px;
+}
+.finishform div label {
+     font-size: 20px;
 }

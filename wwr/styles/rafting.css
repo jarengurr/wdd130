@@ -369,9 +369,10 @@ form {
 }
 .my3 {
      display: grid;
-     grid-template-columns:630px 630px auto;
-     
-     
+     /*grid-template-columns:630px 630px auto;*/
+     grid-template-columns: auto auto auto;
+     justify-self:stretch;
+     justify-content: stretch;
 }
 .my3 div a
 .my3 div p {

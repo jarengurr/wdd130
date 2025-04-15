@@ -298,13 +298,13 @@ form input [type="checkbox"] {
      padding-left: 2000px;
      
      font-family: "Quicksand", sans-serif;
-     width: 600px;
+     width: 800px;
      align-items: center;
      padding: 1rem;
      border: 1px solid rgb(0 0 0 / 0.1);
      border-radius: 0.5rem;
-     background-color:  #6d1717;;
-    max-width: 600px;
+     background-color:  VAR(--oldwhite);
+   
     box-sizing: border-box;
 }
 fieldset {

@@ -307,6 +307,22 @@ form input [type="checkbox"] {
    
     box-sizing: border-box;
 }
+.myform2 {
+     display: grid;
+     margin: 0;
+     padding: 0;
+     padding-left: 0px;
+     
+     font-family: "Quicksand", sans-serif;
+     width: 400px;
+     align-items: center;
+     padding: 1rem;
+     border: 1px solid rgb(0 0 0 / 0.1);
+     border-radius: 0.5rem;
+     background-color:  VAR(--oldwhite);
+   
+    box-sizing: border-box;
+}
 fieldset {
      display: grid;
      grid-gap: 0.5rem;
@@ -445,11 +461,12 @@ form {
  .themain {
      display: grid;
      grid-template-columns: auto auto;
-     grid-template-rows: 600px auto;
+     grid-template-rows: 500px auto;
      justify-self:stretch;
      
  }
  .mytest {
+     
      background-color: #ffe4c4;
     
 

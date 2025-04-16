@@ -264,7 +264,7 @@ fieldset {
      padding-left: .75em;
      padding-right: .75em;
      border: 2px groove;
-}
+    }
 .hold {
      align-self: center;
 }
@@ -309,19 +309,19 @@ form input [type="checkbox"] {
 }
 .myform2 {
      display: grid;
-     margin: 0;
-     padding: 0;
-     padding-left: 0px;
-     
+     margin: 10px;
+     padding: 10px;
+     padding-left: 10px;
+     height: 450px;
      font-family: "Quicksand", sans-serif;
-     width: 400px;
+     width: 600px;
      align-items: center;
      padding: 1rem;
-     border: 1px solid rgb(0 0 0 / 0.1);
+     border: 2px solid rgb(0 0 0 / 0.1);
      border-radius: 0.5rem;
      background-color:  VAR(--oldwhite);
-   
-    box-sizing: border-box;
+     max-width: 600px;
+     box-sizing: border-box;
 }
 fieldset {
      display: grid;
@@ -393,19 +393,24 @@ form {
      grid-template-columns: auto auto auto;
      justify-self:stretch;
      justify-content: stretch;
+    
 }
 
 .mainwords {
     
      border: 5px solid green;
      background-color: aqua;
-     width:500px;
-     height: 330px;
+     width:550px;
+     height: 340px;
      padding-left: 10px;
      padding-bottom: 10px;
-     padding: 30px;
-     margin: 50px;
-     
+     padding: 20px;
+     margin: 40px;
+     align-items: baseline;
+}
+.mainwords h1 {
+     font-size: 50px;
+padding-left: 110px;
 }
 
 .addtxt {
@@ -460,10 +465,11 @@ form {
  }
  .themain {
      display: grid;
-     grid-template-columns: auto auto;
+     grid-template-columns: 50% auto;
      grid-template-rows: 500px auto;
      justify-self:stretch;
-     
+     grid-gap: 30px;
+     height: 900px;
  }
  .mytest {
      
@@ -474,3 +480,29 @@ form {
  .headful {
      text-align: center;
  }
+ .contactbutton {
+     background-color:blue;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     
+     font-size: 20px;
+     margin: 4px 2px;
+     cursor: pointer;
+
+
+ }
+ .chartsp {
+     padding-top: 35px;
+ }
+.continfo {
+
+}
+.chcolor {
+     background-color: bisque;
+}
+.largeprint {
+     font-size: 30px;
+}

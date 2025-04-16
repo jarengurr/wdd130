@@ -504,3 +504,8 @@ padding-left: 110px;
 .largeprint {
      font-size: 30px;
 }
+messtype {
+     height: 25px;
+     width: 25px;
+     vertical-align: middle;
+}

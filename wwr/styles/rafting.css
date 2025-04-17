@@ -442,6 +442,18 @@ form {
      text-align: center;
      
 }
+.test2 {
+     border: 5px solid green;
+     background-color: aqua;
+     width: 490px;
+     height: 175px;
+     padding-left: 10px;
+     padding-bottom: 0;
+     padding: 1px;
+     margin: 0px;
+     text-align: center; 
+     justify-
+}
 .adjpic figure img {
      margin: 27px;
      padding-top: 27px;

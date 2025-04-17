@@ -403,13 +403,13 @@ form {
      height: 275px;
      padding-left: 0px;
      padding-bottom: 10px;
-     padding: 20px;
+     padding: 10px;
      margin: 30px;
      align-items: baseline;
 }
 .mainwords h1 {
-     font-size: 50px;
-padding-left: 110px;
+     font-size: 65px;
+     padding-left: 29px;
 }
 
 .addtxt {
@@ -472,12 +472,7 @@ padding-left: 110px;
      grid-gap: 30px;
      height: 900px;
  }
- .mytest {
-     
-    
-    
-
- }
+ 
  .headfull {
      text-align: center;
  }
@@ -507,7 +502,7 @@ padding-left: 110px;
 .largeprint {
      font-size: 30px;
 }
-messtype {
+.messtype {
      height: 35px;
      width: 25px;
      vertical-align: middle;
@@ -515,7 +510,7 @@ messtype {
 .picbox img {
      
     
-     padding-left: 100px;
+     padding-left: 175px;
 }
 .picwave {
      align-content: center;

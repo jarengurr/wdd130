@@ -127,7 +127,7 @@ header {
      background-color: var(--myaqua); /*#00ffff */
      text-decoration: none;
      justify-items: center;
-     justify-self:stretch;
+     
 }
 
 header nav a {
@@ -400,12 +400,12 @@ form {
     
      border: 5px solid green;
      background-color: aqua;
-     width:550px;
-     height: 340px;
-     padding-left: 10px;
+     width:450px;
+     height: 275px;
+     padding-left: 0px;
      padding-bottom: 10px;
      padding: 20px;
-     margin: 40px;
+     margin: 30px;
      align-items: baseline;
 }
 .mainwords h1 {
@@ -434,12 +434,14 @@ padding-left: 110px;
 .test {
      border: 5px solid green;
      background-color: aqua;
-     width: 590px;
+     width: 490px;
      height: 175px;
-     padding-left: 0px;
-     padding-bottom: 0px;
+     padding-left: 10px;
+     padding-bottom: 0;
      padding: 0px;
      margin: 0px;
+     text-align: center;
+     
 }
 .adjpic figure img {
      margin: 27px;
@@ -495,7 +497,9 @@ padding-left: 110px;
 
  }
  .chartsp {
-     padding-top: 35px;
+     padding-top: 30px;
+    max-width: 550px;
+    padding-left: 20px;
  }
 
 .chcolor {
@@ -505,7 +509,7 @@ padding-left: 110px;
      font-size: 30px;
 }
 messtype {
-     height: 25px;
+     height: 35px;
      width: 25px;
      vertical-align: middle;
 }
@@ -516,4 +520,5 @@ messtype {
 }
 .picwave {
      align-content: center;
+     padding-bottom: 20px;
 }

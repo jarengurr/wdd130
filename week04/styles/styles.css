@@ -22,6 +22,12 @@ body {
     margin: 10px;
     background: aqua;
   }
+  article p {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+  }
   /* Add your flexbox CSS below here */
 nav li {
   display: flex;

@@ -127,7 +127,7 @@ header {
      background-color: var(--myaqua); /*#00ffff */
      text-decoration: none;
      justify-items: center;
-
+     justify-self:stretch;
 }
 
 header nav a {
@@ -473,7 +473,7 @@ padding-left: 110px;
  }
  .mytest {
      
-     background-color: #ffe4c4;
+    
     
 
  }
@@ -513,4 +513,7 @@ messtype {
      
     
      padding-left: 100px;
+}
+.picwave {
+     align-content: center;
 }

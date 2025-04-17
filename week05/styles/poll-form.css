@@ -95,4 +95,8 @@ footer {
 }
 .column2 {
     grid-template-columns: 1fr 2fr;
+    
+}
+.column2 label {
+    padding: 50px;
 }
